@@ -1,0 +1,389 @@
+/* Patrones globales del CSS */
+
+/* Tipo de Títulos, Subtítulos, Enlaces y Botones: Poppins */
+h1, h2, h3, h4, h5, h6, a, button { font-family: 'Poppins', sans-serif; }
+
+/* Tipo de Párrafos: Oxygen */
+p, span, strong, em, div { font-family: 'Oxygen', sans-serif; }
+
+/* Quitar Margen por defecto de Body  */
+body { margin: 0 auto !important; overflow-x: hidden !important; }
+
+/* Quitar margen por detecto en Títulos y Párrafos */
+h1, h2, h3, h4, h5, h6, p, figure { margin: 0 !important; }
+
+/* Confirmar display: block; a elementos de estructura HTML5 */
+header, aside, main, footer, section, article, figure, nav, figcaption { display: block; }
+
+
+
+
+/* Configuración del estilo propio */
+
+
+/* Componentes Aside: Menú Responsive Izquierda 290px */
+aside#menu-responsive { width: 290px; height: 100%; display: none; margin: 0; float: none; position: fixed; top: 0; left: -290px; z-index: 99998; background: rgb(17 17 17 / 99%); }
+
+aside#menu-responsive a#abrir { width: 35px; height: auto; display: block; margin: 0; float: none; position: absolute; top: 20px; right: -35px; z-index: 1; color: #000; background: #c5da19; font-size: 1.25em; line-height: 1em; text-align: center; padding: 7.5px 0; transition: all 0.3s ease-in; }
+aside#menu-responsive a#abrir:hover { background: #000; color: #c5da19; transition: all 0.3s ease-in; }
+
+aside#menu-responsive a#cerrar { width: 35px; height: auto; display: none; margin: 0; float: none; position: absolute; top: 20px; right: -35px; z-index: 2; color: #000; background: #c5da19; font-size: 1.25em; line-height: 1em; text-align: center; padding: 7.5px 0; transition: all 0.3s ease-in; }
+aside#menu-responsive a#cerrar:hover { background: #000; color: #c5da19; transition: all 0.3s ease-in; }
+
+aside#menu-responsive nav { width: 58%; height: auto; display: block; margin: 25px auto 0 auto; float: none; position: relative; }
+aside#menu-responsive nav a { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; font-size: 1em; line-height: 1em; color: #fff; text-decoration: none; padding: 14px 0; text-align: right; }
+aside#menu-responsive nav a:hover {  }
+
+
+
+/* Componentes Aside: Menú Responsive Derecha 290px */
+aside#menu-responsive-derecha-290 { width: 290px; height: 100%; display: none; margin: 0; float: none; position: fixed; top: 0; right: -290px; z-index: 99998; background: rgb(17 17 17 / 99%); }
+
+aside#menu-responsive-derecha-290 a#abrir { width: 35px; height: auto; display: block; margin: 0; float: none; position: absolute; top: 20px; left: -35px; z-index: 1; color: #000; background: #c5da19; font-size: 1.25em; line-height: 1em; text-align: center; padding: 7.5px 0; transition: all 0.3s ease-in; }
+aside#menu-responsive-derecha-290 a#abrir:hover { background: #000; color: #c5da19; transition: all 0.3s ease-in; }
+
+aside#menu-responsive-derecha-290 a#cerrar { width: 35px; height: auto; display: none; margin: 0; float: none; position: absolute; top: 20px; left: -35px; z-index: 2; color: #000; background: #c5da19; font-size: 1.25em; line-height: 1em; text-align: center; padding: 7.5px 0; transition: all 0.3s ease-in; }
+aside#menu-responsive-derecha-290 a#cerrar:hover { background: #000; color: #c5da19; transition: all 0.3s ease-in; }
+
+aside#menu-responsive-derecha-290 nav { width: 58%; height: auto; display: block; margin: 25px auto 0 auto; float: none; position: relative; }
+aside#menu-responsive-derecha-290 nav a { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; font-size: 1em; line-height: 1em; color: #fff; text-decoration: none; padding: 14px 0; text-align: right; }
+aside#menu-responsive-derecha-290 nav a:hover {  }
+
+
+
+/* Componentes Aside: Menú Responsive Izquierda 100% */
+aside#menu-responsive-100x100 { width: 100%; height: 100%; display: none; margin: 0; float: none; position: fixed; top: 0; left: -100%; z-index: 99998; background: rgb(17 17 17 / 99%); }
+
+aside#menu-responsive-100x100 a#abrir { width: 35px; height: auto; display: block; margin: 0; float: none; position: absolute; top: 20px; right: -35px; z-index: 1; color: #000; background: #c5da19; font-size: 1.25em; line-height: 1em; text-align: center; padding: 7.5px 0; transition: all 0.3s ease-in; }
+aside#menu-responsive-100x100 a#abrir:hover { background: #000; color: #c5da19; transition: all 0.3s ease-in; }
+
+aside#menu-responsive-100x100 a#cerrar { width: 35px; height: auto; display: none; margin: 0; float: none; position: absolute; top: 20px; left: 0; z-index: 2; color: #000; background: #c5da19; font-size: 1.25em; line-height: 1em; text-align: center; padding: 7.5px 0; transition: all 0.3s ease-in; }
+aside#menu-responsive-100x100 a#cerrar:hover { background: #000; color: #c5da19; transition: all 0.3s ease-in; }
+
+aside#menu-responsive-100x100 nav { width: 58%; height: auto; display: block; margin: 25px auto 0 auto; float: none; position: relative; }
+aside#menu-responsive-100x100 nav a { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; font-size: 1em; line-height: 1em; color: #fff; text-decoration: none; padding: 14px 0; text-align: center; }
+aside#menu-responsive-100x100 nav a:hover {  }
+
+
+
+/* Componentes Aside: Menú Responsive Derecha 100% */
+aside#menu-responsive-derecha-100x100 { width: 100%; height: 100%; display: none; margin: 0; float: none; position: fixed; top: 0; right: -100%; z-index: 99998; background: rgb(17 17 17 / 99%); }
+
+aside#menu-responsive-derecha-100x100 a#abrir { width: 35px; height: auto; display: block; margin: 0; float: none; position: absolute; top: 20px; left: -35px; z-index: 1; color: #000; background: #c5da19; font-size: 1.25em; line-height: 1em; text-align: center; padding: 7.5px 0; transition: all 0.3s ease-in; }
+aside#menu-responsive-derecha-100x100 a#abrir:hover { background: #000; color: #c5da19; transition: all 0.3s ease-in; }
+
+aside#menu-responsive-derecha-100x100 a#cerrar { width: 35px; height: auto; display: none; margin: 0; float: none; position: absolute; top: 20px; right: 0; z-index: 2; color: #000; background: #c5da19; font-size: 1.25em; line-height: 1em; text-align: center; padding: 7.5px 0; transition: all 0.3s ease-in; }
+aside#menu-responsive-derecha-100x100 a#cerrar:hover { background: #000; color: #c5da19; transition: all 0.3s ease-in; }
+
+aside#menu-responsive-derecha-100x100 nav { width: 58%; height: auto; display: block; margin: 25px auto 0 auto; float: none; position: relative; }
+aside#menu-responsive-derecha-100x100 nav a { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; font-size: 1em; line-height: 1em; color: #fff; text-decoration: none; padding: 14px 0; text-align: center; }
+aside#menu-responsive-derecha-100x100 nav a:hover {  }
+
+
+
+/* Componentes Aside: Botón flotante de WhatsApp */
+aside#boton-wp { width: 50px; height: 50px; margin: 0; float: none; position: fixed; bottom: 30px; right: 30px; z-index: 99996; }
+aside#boton-wp a { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; color: #fff; background: #2acc3e; font-size: 1.55em; line-height: 1em; text-align: center; padding: 12.5px 0; border-radius: 50%; box-shadow: 0 0 15px rgb(0 0 0 / 35%); transition: all 0.3s ease-in; }
+aside#boton-wp a:hover { color: #2acc3e; background: #333; transition: all 0.3s ease-in; }
+
+
+
+/* Componente Header con logo a la izquierda y menú a la derecha */
+header { width: 100%; height: 80px; margin: 0; float: none; position: fixed; top: 0; left: 0; z-index: 99995; background: #c5da19; }
+header article { width: 1100px; height: 80px; margin: 0 auto; float: none; position: relative; }
+
+header article figure { width: 160px; height: 60px; display: block; margin: 10px 0; float: left; position: relative; }
+header article figure a { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; transition: all 0.3s ease-in; }
+header article figure a img { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; transition: all 0.3s ease-in; }
+header article figure a:hover { transform: scale(1.02); transition: all 0.3s ease-in; }
+
+
+header article nav#menu { width: 564px; height: 35px; display: block; margin: 22px 128px; float: left; position: relative; }
+header article nav#menu a { width: auto; height: auto; display: block; margin: 0 9px; float: left; position: relative; font-size: 0.95em; line-height: 1em; color: #fff; text-decoration: none; padding: 10px 0; font-weight: 300; letter-spacing: 0.03em; border-bottom: solid 2px #c5da19; transition: all 0.3s ease-in; }
+header article nav#menu a:hover { color: #000; border-bottom: solid 2px #000; transition: all 0.3s ease-in; }
+header article nav#menu a.activo { color: #000; border-bottom: solid 2px #000; transition: all 0.3s ease-in; }
+
+
+header article nav#social { width: 120px; height: 35px; display: block; margin: 22px 0; float: right; position: relative; }
+header article nav#social a { width: 35px; height: auto; display: block; margin: 0 2px; float: left; position: relative; color: #fff; font-size: 1.25em; line-height: 1em; text-align: center; padding: 7.5px 0; transition: all 0.3s ease-in; }
+header article nav#social a:hover { color: #000; transition: all 0.3s ease-in; }
+
+
+
+/* Caja Main */
+main { width: 100%; height: auto; margin: 80px auto 0 auto; float: none; position: relative; }
+
+
+
+/* Sección Banner con Slodes */
+main section#banner-slider { width: 100%; height: auto; margin: 0 auto; float: none; position: relative; background: #fff; }
+main section#banner-slider article.slick-slider { width: 100%; height: 88vh; margin: 0 auto; float: none; position: relative; }
+
+main section#banner-slider article.slick-slider figure { width: 100%; height: 88vh; margin: 0; float: left; position: relative; }
+main section#banner-slider article.slick-slider figure#slide-01 { background: url('../img/fondos/slide-01.jpg') no-repeat top center; background-size: cover; }
+main section#banner-slider article.slick-slider figure#slide-02 { background: url('../img/fondos/slide-02.jpg') no-repeat top center; background-size: cover; }
+main section#banner-slider article.slick-slider figure#slide-03 { background: url('../img/fondos/slide-01.jpg') no-repeat top center; background-size: cover; }
+
+main section#banner-slider article.slick-slider figure h2 {  }
+main section#banner-slider article.slick-slider figure p {  }
+main section#banner-slider article.slick-slider figure a {  }
+main section#banner-slider article.slick-slider figure a:hover {  }
+
+.slick-prev { left: 30px !important; z-index: 998; }
+.slick-next { right: 30px !important; z-index: 999; }
+
+.slick-dots { bottom: 30px !important; }
+
+
+
+/* Sección Servicios */
+main section#servicios { width: 100%; height: auto; margin: 0 auto; float: none; position: relative; background: #333; }
+main section#servicios article { width: 1100px; height: 600px; margin: 0 auto; float: none; position: relative; }
+
+
+
+/* Sección Trabajos Destacados */
+main section#destacados { width: 100%; height: auto; margin: 0 auto; float: none; position: relative; background: #999; }
+main section#destacados article { width: 1100px; height: 500px; margin: 0 auto; float: none; position: relative; }
+
+
+
+/* Sección Testimonios */
+main section#testimonios { width: 100%; height: auto; margin: 0 auto; float: none; position: relative; background: #555; }
+main section#testimonios article { width: 1100px; height: 700px; margin: 0 auto; float: none; position: relative; }
+
+
+
+/* Sección de Contacto */
+main section#contactame { width: 100%; height: auto; margin: 0 auto; float: none; position: relative; background: rgb(51,51,51); background: -moz-linear-gradient(top,  rgba(51,51,51,1) 0%, rgba(0,0,0,1) 100%); background: -webkit-linear-gradient(top,  rgba(51,51,51,1) 0%,rgba(0,0,0,1) 100%); background: linear-gradient(to bottom,  rgba(51,51,51,1) 0%,rgba(0,0,0,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', endColorstr='#000000',GradientType=0 ); }
+
+main section#contactame div#ancla-contactame { width: 100%; height: 1px; margin: 0; float: none; position: absolute; top: -80px; left: 0; padding: 0; background: transparent; }
+
+main section#contactame article { width: 80%; height: auto; margin: 0 auto; float: none; position: relative; padding: 90px 0; }
+
+main section#contactame article p { text-align: center; font-size: 1.1em; line-height: 1.3em; color: #fff; letter-spacing: 0.035em; padding: 0 0 25px; }
+main section#contactame article nav { width: 290px; height: auto; display: block; margin: 0 auto; float: none; position: relative; }
+main section#contactame article nav a { width: 100%; height: auto; display: block; margin: 0 auto 10px; float: none; position: relative; border: solid 1px #fff; text-align: center; text-decoration: none; color: #fff; background: rgb(0 0 0 / 15%); padding: 11px 0; transition: all 0.3s ease-in; }
+main section#contactame article nav a:hover { background: #c5da19; color: #000; transition: all 0.3s ease-in; }
+
+
+
+
+/* Main section acnp */
+main section#acnp {
+    width: 100%;
+    height: auto;
+    float: none;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+main section#acnp article {
+    width: 1100px;
+    height: auto;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+main section#acnp article nav {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    padding: 70px 0;
+}
+main section#acnp article nav a {
+    width: 520px;
+    display: inline-block;
+    float: none;
+    height: 400px;
+    margin: 14px;
+    position: relative;
+    border-radius: 10px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: all 0.3s ease-in;
+}
+main section#acnp article nav a#acnp-01 {
+    background: url('https://images.unsplash.com/photo-1431440869543-efaf3388c585?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80') no-repeat center center; background-size: 120%;
+}
+main section#acnp article nav a#acnp-02 {
+    background: url('https://images.unsplash.com/photo-1509023464722-18d996393ca8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80') no-repeat center center; background-size: 120%;
+}
+main section#acnp article nav a#acnp-03 {
+    background: url('https://images.unsplash.com/photo-1494587351196-bbf5f29cff42?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80') no-repeat center center; background-size: 120%;
+}
+main section#acnp article nav a#acnp-04 {
+    background: url('https://images.unsplash.com/photo-1439792675105-701e6a4ab6f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=752&q=80') no-repeat center center; background-size: 120%;
+}
+
+main section#acnp article nav a span.texto-acnp {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    text-align: center;
+    color: #000;
+    font-size: 1.8em;
+    letter-spacing: 0.075em;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 181px 0;
+    opacity: 0;
+    text-shadow: 0 0 10px rgb(0 0 0 / 75%);
+    transition: all 0.3s ease-in;
+}
+
+main section#acnp article nav a span.color-acnp {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.25);
+    opacity: 0;
+    transition: all 0.3s ease-in;
+}
+
+main section#acnp article nav a:hover span.texto-acnp,
+main section#acnp article nav a:hover span.color-acnp {
+    opacity: 1;
+    transition: all 0.3s ease-in;
+}
+/*
+main section#acnp article nav a:hover span.texto-acnp {
+    top: 0;
+    transition: all 0.3s ease-in;
+}
+*/
+main section#acnp article nav a:hover span.color-acnp {
+    background: rgba(255, 0, 255, 0.25);
+    transition: all 0.3s ease-in;
+}
+
+main section#acnp article nav a#acnp-01:hover {
+    background: url('https://images.unsplash.com/photo-1431440869543-efaf3388c585?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80') no-repeat center center; background-size: 130%;
+}
+main section#acnp article nav a#acnp-02:hover {
+    background: url('https://images.unsplash.com/photo-1509023464722-18d996393ca8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80') no-repeat center center; background-size: 130%;
+}
+main section#acnp article nav a#acnp-03:hover {
+    background: url('https://images.unsplash.com/photo-1494587351196-bbf5f29cff42?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80') no-repeat center center; background-size: 130%;
+}
+main section#acnp article nav a#acnp-04:hover {
+    background: url('https://images.unsplash.com/photo-1439792675105-701e6a4ab6f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=752&q=80') no-repeat center center; background-size: 130%;
+}
+
+
+
+
+/* Sección Galería Instagram */
+main section#gal-ig { width: 100%; height: auto; float: none; display: block; margin: 0 auto 90px; position: relative; }
+main section#gal-ig article { width: 1100px; height: auto; float: none; display: block; margin: 0 auto; position: relative; padding: 50px 0 0 0; }
+main section#gal-ig article nav { width: 100%; height: auto; float: none; display: block; margin: 0 auto; position: relative; }
+main section#gal-ig article nav a { width: 250px; height: auto; float: none; display: inline-block; margin: 11px; position: relative; overflow: hidden; border-radius: 5px; transition: all 0.3s ease-in; }
+main section#gal-ig article nav a img { width: 100%; height: auto; float: none; display: block; margin: 0 auto; position: relative; transition: all 0.3s ease-in; }
+main section#gal-ig article nav a:hover { opacity: 0.8; transition: all 0.3s ease-in; }
+main section#gal-ig article nav a:hover img { transform: scale(1.03); transition: all 0.3s ease-in; }
+
+
+
+/* Sección Galería Pinterest */
+main section#gal-pi { width: 100%; height: auto; float: none; display: block; margin: 0 auto 90px; position: relative; }
+main section#gal-pi article { width: 1100px; height: auto; float: none; display: block; margin: 0 auto; position: relative; }
+main section#gal-pi article nav { width: 100%; height: auto; float: none; display: block; margin: 0 auto; position: relative; }
+main section#gal-pi article nav div.columna-pi { width: 250px; height: 1000px; float: none; display: inline-block; margin: 0 11px; position: relative; overflow: hidden; border-radius: 5px; }
+main section#gal-pi article nav div.columna-pi a { width: 100%; height: auto; float: none; display: block; margin: 0 auto 24px; position: relative; overflow: hidden; border-radius: 5px; transition: all 0.3s ease-in; }
+main section#gal-pi article nav div.columna-pi a img { width: 100%; height: auto; float: none; display: block; margin: 0 auto; position: relative; transition: all 0.3s ease-in; }
+main section#gal-pi article nav div.columna-pi a:hover { transition: all 0.3s ease-in; }
+main section#gal-pi article nav div.columna-pi a:hover img { filter: saturate(1.5); transform: scale(1.03); transition: all 0.3s ease-in; }
+
+.fancybox-container { z-index: 99999 !important; }
+
+
+
+
+/* Componente Footer */
+footer { width: 100%; height: auto; margin: 0 auto; float: none; position: relative; background: url('../img/fondos/footer.jpg') no-repeat top center; background-size: cover; }
+footer article { width: 80%; height: auto; margin: 0 auto; float: none; position: relative; padding: 90px 0; }
+
+footer article > a { width: 200px; height: 71px; display: block; margin: 0 auto; float: none; position: relative; }
+footer article > a img { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; }
+footer article > a:hover {  }
+
+footer article nav { width: 200px; height: 35px; display: block; margin: 50px auto 0 auto; float: none; position: relative; }
+footer article nav a { width: 35px; height: auto; display: block; margin: 0 2px; float: left; position: relative; color: #fff; font-size: 1.25em; line-height: 1em; text-align: center; padding: 7.5px 0; transition: all 0.3s ease-in; }
+footer article nav a:hover {  }
+
+
+
+/* Tablets */
+@media only screen and (max-width: 1199px){
+    aside#menu-responsive { display: block; }
+    aside#menu-responsive-derecha-290 { display: block; }
+    aside#menu-responsive-100x100 { display: block; }
+    aside#menu-responsive-derecha-100x100 { display: block; }
+
+    header article { width: 80%; }
+    header article nav#menu { display: none; }
+    header article nav#social { margin: 13px 0; position: absolute; top: 0; right: 0; }
+    header article figure { margin: 10px auto; float: none; }
+
+    /* Sección Galería Instagram */
+    main section#gal-ig article { width: 90%; }
+    main section#gal-ig article nav a { width: 30%; margin: 1.5%; }
+
+    /* Sección Galería Pinterest */
+    main section#gal-pi article { width: 90%; }
+    main section#gal-pi article nav div.columna-pi { width: 100%; height: auto; float: none; display: block; margin: 0 auto 25px; }
+
+    /* Section acnp */
+    main section#acnp article { width: 90%; }
+    main section#acnp article nav a { width: 47%; height: 300px; margin: 1%; }
+    main section#acnp article nav a span.texto-acnp { width: 80%; text-align: left; color: #fff; padding: 131px 10% 131px 10%; opacity: 1; }
+    main section#acnp article nav a span.color-acnp { opacity: 1; background: rgba(255, 0, 255, 0.05); }
+}
+
+@media only screen and (max-width: 899px){
+    /* Sección Galería Instagram */
+    main section#gal-ig article nav a { margin: 1.3%; }
+
+    /* Section acnp */
+    main section#acnp article nav a { width: 100%; }
+}
+
+@media only screen and (max-width: 799px){
+    /* Sección Galería Instagram */
+    main section#gal-ig article nav a { width: 47%; margin: 1.2%; }
+}
+
+@media only screen and (max-width: 599px){
+    header article { width: 95%; }
+    header article nav#social { display: none; }
+    header article figure { margin: 10px 0; float: right; }
+}
+
+/* Móviles */
+@media only screen and (max-width: 499px){
+    main section#acnp article nav a { height: 150px; }
+    main section#acnp article nav a span.texto-acnp { padding: 14% 10%; font-size: 1.35em; }
+}
+
+@media only screen and (max-width: 449px){
+    /* Sección Galería Instagram */
+    main section#gal-ig article nav a { width: 100%; margin: 0 auto 25px; float: none; display: block; }
+}
+
+@media only screen and (max-width: 399px){
+
+}
